@@ -1,0 +1,26 @@
+{
+  "name": "three-dimensional-chart-replit",
+  "version": "0.0.1",
+  "description": "Three dimensional chart intended to run on Repl.it",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Backus",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.138.3",
+    "three-orbitcontrols-ts": "git+https://git@github.com/nicolaspanel/three-orbitcontrols-ts.git",
+    "troika-three-text": "^0.46.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.138.0",
+    "esbuild": "^0.14.25",
+    "http-server": "^14.1.0",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  },
+  "prettier": {
+    "trailingComma": "es5"
+  }
+}
